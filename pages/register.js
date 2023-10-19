@@ -8,6 +8,7 @@ import {
   createUserWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
+
 import { auth, db } from "@/firebase/firebase";
 import { useAuth } from "@/context/authContext";
 import { useRouter } from "next/router";
